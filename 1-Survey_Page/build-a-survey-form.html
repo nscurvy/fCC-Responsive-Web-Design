@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- This is freeCodeCamp.org 'certification' project 1 on 'Responsive Web Design'. -->
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform.</p>
+  <form id="survey-form">
+    <label id="name-label" for="name">Name<input placeholder="Enter your name" id="name" type="text" required/></label>
+    <label id="email-label" for="email">Email<input placeholder="Enter your email" id="email" type="email" required/></label>
+    <label id="number-label" for="number">Number<input id="number" placeholder="Enter a rating" type="number" min="0" max="120" /></label>
+    <select id="dropdown">
+      <option>A</option>
+      <option>B</option>
+    </select>
+    <label for="radio-1" id="radio-label-1"><input id="radio-1" name="radio" type="radio" value="1" />1</label>
+    <label for="radio-2" id="radio-label-2"><input id="radio-2" value="2" type="radio" name="radio"/>2</label>
+    <textarea placeholder="Additional comments..." rows="5" cols="30"></textarea>
+    <label id="checkbox-this" for="this"><input type="checkbox" value="1" id="this"/>This</label>
+    <label id="checkbox-that" for="that"><input type="checkbox" value="2" id="that" />That</label>
+    <button id="submit" action="submit" >Submit</button>
+  </form>
+</body>
+</html>
+
